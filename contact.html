@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Jake</title>
+</head>
+<body bgcolor="cyan">
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="projects/projects.html">Projects</a> |
+            <a href="videos.html">Videos</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <p>Fill out the form below to send an email to me!</p>
+            <!-- Fun Cat Image-->
+            <img src="images/cat2.jpg" alt="photo of a cat" width="150">
+            
+            <form action="mailto:jake.goard@du.edu" method="post" enctype="text/plain">
+                <label for="name">Name:<br>
+                    <input type="text" id="name" name="name" placeholder="Your Name">
+                </label><br><br>
+                <label for="email">Email:<br>
+                    <input type="email" id="email" name="email" placeholder="you@example.com">
+                </label><br><br>
+                <label for="message">Message:<br>
+                    <textarea id="message" name="message" rows="5" cols="30" placeholder="Type your message here..."></textarea>
+                </label><br><br>
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+        
+    </main>
+</body>
+</html>
